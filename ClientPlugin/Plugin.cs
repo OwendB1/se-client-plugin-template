@@ -5,7 +5,7 @@ using HarmonyLib;
 using Sandbox.Graphics.GUI;
 using VRage.Plugins;
 
-// Set the assembly version manually if compiled by Pulsar (it won't create what was in AssemblyInfo.cs before)
+// Define assembly version when compiled by Pulsar
 #if !DEV_BUILD
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
